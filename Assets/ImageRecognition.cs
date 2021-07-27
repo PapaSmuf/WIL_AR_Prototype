@@ -32,14 +32,4 @@ public class ImageRecognition : MonoBehaviour
             //      do stuff
         }
     }
-
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
 }

@@ -16,12 +16,12 @@ MonoBehaviour:
   m_GuidHigh: 15483093560881389952
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4820186840917017669
-      m_GuidHigh: 6036964897201750678
+      m_GuidLow: 4716415536435706544
+      m_GuidHigh: 14051227552844670375
     m_SerializedTextureGuid:
-      m_GuidLow: 13741612748374520079
-      m_GuidHigh: 5093678440593162906
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: Dark Souls Goat
+      m_GuidLow: 9760696493544655490
+      m_GuidHigh: 9724754802702893944
+    m_Size: {x: 0.3, y: 0.5875952}
+    m_SpecifySize: 1
+    m_Name: Dinosaur
     m_Texture: {fileID: 0}
