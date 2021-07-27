@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5031497858621821795
+  m_GuidHigh: 15483093560881389952
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4820186840917017669
+      m_GuidHigh: 6036964897201750678
+    m_SerializedTextureGuid:
+      m_GuidLow: 13741612748374520079
+      m_GuidHigh: 5093678440593162906
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Dark Souls Goat
+    m_Texture: {fileID: 0}
