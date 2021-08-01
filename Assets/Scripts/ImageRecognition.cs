@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.ARFoundation;
+using UnityEngine.UI;
 
 public class ImageRecognition : MonoBehaviour
 {
     ARTrackedImageManager _arTrackedImageManager;
+
+    public GameObject tRexInfo;
+
+    public Text debugText;
 
     private void Awake()
     {
@@ -27,9 +32,14 @@ public class ImageRecognition : MonoBehaviour
     {
         foreach (var trackedImage in args.added)
         {
-            Debug.Log(trackedImage.name);
-            // if (name == "blah blah")
-            //      do stuff
+            //debugText.text += (trackedImage.referenceImage.name + " detected") + "\n";
+            if (trackedImage.referenceImage.name == "T-Rex")
+            {
+                //_arTrackedImageManager.trackedImagePrefab = tRexInfo;
+                Instantiate(tRexInfo);
+                //debugText.text += "prefab should be changed" + "\n";
+            }
+
         }
     }
 }
